@@ -1,5 +1,8 @@
 # Nano
 Chess Neural Network Trainer for Nectar with Tensorflow
+# Current features
+* AdamW optimiser
+* SCReLU activation function
 # Data generation
 * Generate your own data in the form of a `.pgn` file and place it in `/Data/pgn`
   * Do make sure your pgn is correctly formatted and all pgns within the file have a definite result
