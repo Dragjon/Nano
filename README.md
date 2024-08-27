@@ -13,8 +13,8 @@ Chess Neural Network Trainer for Nectar with Tensorflow
 * Modify `/Config/config.json` according to your needs
   * You probably want to change `HIDDEN_LAYERS` `EPOCHS` `MODEL_NAME` `DATA_FILE_NAME` `DATA_EXTRACTER_THREADS`
 # Parsing data
-1) Run `/Extracter/extract_csv.py
-2) Run `/Extracter/remove_duplicates.py
+1) Run `/Extracter/extract_csv.py`
+2) Run `/Extracter/remove_duplicates.py`
 # Training model
 1) Run `/Trainer/encode_data.py`
 2) Run `/Trainer/main.py`
