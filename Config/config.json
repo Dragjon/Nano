@@ -1,0 +1,22 @@
+{
+    "BASIC": {
+        "MODEL_NAME": "my_simple_network",
+        "DATA_FILE_NAME": "my_data",
+        "DATA_FOLDER": "Data"
+    },
+    "DATA_EXTRACTER": {
+        "DATA_EXTRACTER_THREADS": 8,
+        "NUM_GAMES_PER_THREAD": 100
+    },
+    "DATA_ENCODER": {
+        "DATA_ENCODER_PRINT_FREQUENCY": 10000,
+        "DATA_ENCODER_SET_ARRAY_SIZE": 50000000
+    },
+    "MODEL": {
+        "HIDDEN_LAYERS": 32,
+        "LEARNING_RATE": 0.01,
+        "BATCH_SIZE": 131702,
+        "EPOCHS": 50,
+        "VERBOSE": 1
+    }
+}
